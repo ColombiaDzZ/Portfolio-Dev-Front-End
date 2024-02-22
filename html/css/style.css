@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: 'Lexend';
+    overflow-x: hidden;
+    overflow-y: unset;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 64, 255);
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+html {
+    height: 100%;
+}
+
+li {
+    display: center;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Lexend';
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: rgb(0, 72, 255);
+    text-decoration: none;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 72, 255);
+}
+
+.image {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    font-family: 'Lexend';
+    font-size: 22px;
+    color: rgb(0, 72, 255);
+}
+
+h2 {
+    position: relative;
+    top: 23px;
+    font-family: 'Lexend';
+    font-size: 15px;
+}
+
+h3 {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+p {
+    width: 100%;
+    position: relative;
+    top: 35px;
+}
+
+/* Logos prontas / Github / instagram e Whatsapp */
+footer img {
+    width: 100%;
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    display: block;
+}
+
+main .section p {
+    width: 100%;
+    left: 200px;
+}
+
+footer a {
+    position: relative;
+    top: 10px;
+    margin: 25px;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Lexend';
+    top: 1px;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.rodape {
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 50px;
+    padding: 1px;
+    margin-top: -3%;
+    margin-left: 22%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 72, 255);
+    position: flex;
+}
+
+/* Logos prontas / Github / instagram e Whatsapp */
+
+.container {
+    text-align: center;
+    top: 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+strong {
+    color: rgb(0, 72, 255);
+}
+
+.underlined p strong i:hover {
+    color: #fff;
+}
+
+p strong:hover {
+    color: #fff;
+}
+
+.lines {
+    position: relative;
+    top: 60px;
+    border-bottom: 16px solid rgb(0, 72, 255);
+}
+
+.underlined {
+    color: rgb(0, 61, 214);
+}
+
+.certificatesLUA h1 {
+    color: white;
+    width: 100%;
+    height: auto;
+    display: center;
+    top: 98px;
+    left: 1px;
+}
+
+.certificatesLUA img {
+    width: 35%;
+    height: auto;
+    display: center;
+    margin-top: 40px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.certificatesHTML h1 {
+    color: white;
+    width: 100%;
+    height: auto;
+    display: center;
+    top: 58px;
+    left: 1px;
+}
+
+.certificatesHTML img {
+    width: 35%;
+    height: auto;
+    display: center;
+    border-style: solid;
+    border-radius: 15px;
+}
